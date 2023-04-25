@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    text-decoration: none;
+}
+
+body{
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: transparent;
+  }
+   
+::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 10%, rgb(20, 20, 20)),url(./img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 16px;
+    list-style: none;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 48px;
+    font-weight: 300; 
+}
+
+.cabeçalho-link a{
+    color: rgb(192, 192, 192);
+    font-size: 20px;
+    cursor: pointer; 
+}
+
+.cabeçalho-link a:hover{
+    color:  rgb(255, 255, 255);
+    transition: 0.3s all;
+}
+
+.logo i{
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    background-image: linear-gradient(to bottom right, rgb(0, 128, 0), rgb(128, 128, 0), rgb(0,0,128));
+    border: 1px solid #ffffff;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.logo i img{
+    filter:invert(1);
+}
+
+button{
+    color: rgb(0, 255, 0);
+    background: transparent;
+    border:solid 1px yellow;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover{
+    background-color: #0000ff;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px 0 0 130px;
+}
+
+.text h3{
+    color: #fff;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.text h2{
+    color: #fff;
+    font-size: 36px;
+    align-items: center;
+}
+
+.text h1{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 48px;
+}
+
+.text span{
+    color: rgb(0, 255, 0);
+}
+
+.text p{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.redes-social{
+    margin-top: 10px;
+}
+
+.redes-social a{
+    color: rgb(192,192,192);
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.redes-social a:hover{
+    color: #fff;
+    transition: 0.3s all;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+#about{
+    background-color: rgb(20,20,20);
+    color: rgb(220,220,220);
+    align-items: center;
+    text-align: center;
+}
+
+#about p{
+    text-indent: 25px;
+    font-size: 15px;
+    padding: 10px 10% 0 10%;
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+}
+
+.recuo {
+    text-indent: 32px;
+}
+
+.padding {
+    padding: 10px 5% 0 5%;
+}
+
+.text h4{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 20%;
+}
+
+ol, ul {
+    color: #fff;
+    padding-left: 15%;
+  }
+
+  #prêmios .background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 10%, rgb(20, 20, 20)),url(./img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 340vh;
+  }
